@@ -1,0 +1,319 @@
+@media (max-width: 1800px) {
+    header .header-box .nav_menu li a {
+        font-size: 17px;
+    }
+    header .header-box .nav_menu li a.active {
+        width: 260px;
+        font-size: 17px;
+    }
+    header .header-box .nav_menu li {
+        margin-right: 50px;
+    }
+    header .header-box .nav_menu li a.active {
+        margin: 0 0 0 50px;
+    }
+    .building-cart {
+        height: 570px;
+    }
+    #one-room_apartments table th.first, #one-room_apartments table td.first {
+        text-align: left;
+        padding: 12px 10px;
+    }
+    #one-room_apartments table tr {
+        padding-right: 0;
+    }
+}
+@media (max-width: 1500px) {
+    header .header-box .nav_menu li a {
+        font-size: 16px;
+    }
+    header .header-box .nav_menu li {
+        margin-right: 35px;
+    }
+    .building-cart{
+        padding: 15px;
+        height: 100%;
+        margin-bottom: 0;
+    }
+    #select-block .box {
+        padding: 33px 85px;
+    }
+    #new-buildings .col-xl-3,
+    #new-buildings .col-lg-4,
+    #new-buildings .col-md-6,
+    #new-buildings .col-sm-12
+    {
+
+        padding-bottom: 30px;
+    }
+    .building-cart .building-parametres {
+        padding: 0;
+    }
+    #property ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #property ul li:first-child {
+        width: 100%;
+    }
+    #sales-offer .offer-slider {
+        padding: 0 35px;
+    }
+    #sales-offer .owl-carousel .owl-nav button.owl-next {
+        right: 5px;
+    }
+    #sales-offer .owl-carousel .owl-nav button.owl-prev {
+        left: 5px;
+    }
+
+}
+@media (max-width: 1200px) {
+    #select-block .box {
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    #select-block .box:before{
+        display: none;
+    }
+    #select-block .box:after{
+        display: none;
+    }
+    .select {
+        margin-bottom: 20px;
+    }
+    .select:last-child{
+        margin-bottom: 0;
+    }
+    #one-room_apartments table tr td {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        padding:0 16px;
+    }
+    header .header-box  .nav_menu{
+        visibility: hidden;
+        width: 0;
+    }
+    header {
+        padding: 6px 0;
+    }
+    header .header-box {
+        justify-content: center;
+    }
+    header .header-box .logo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    header .header-box .logo img {
+        width: 30px;
+        height: 22px;
+    }
+    .phone_number {
+        position: absolute;
+        right: 16px;
+    }
+    .mobile-btn{
+        visibility: visible;
+    }
+    .phone_number {
+        display: block;
+    }
+    #content-wrap .sidebar {
+        margin-right: 0;
+        width: 0;
+        display: none;
+    }
+    #one-room_apartments .first {
+        width: 40%;
+    }
+    #content-wrap {
+        padding-bottom: 0;
+    }
+    .building-cart .main_img {
+        margin-bottom: 13px;
+        width: 100%;
+    }
+    footer {
+        background: rgba(220, 187, 7, 0.66);
+        padding: 24px 0 32px 0;
+        margin-top: 100px;
+    }
+
+    footer .footer-top {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer .footer-top ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer .footer-top .logo {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    footer .footer-top ul li {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    footer .footer-bottom {
+        margin-top: 75px;
+    }
+    footer .container {
+        padding: 0 30px;
+    }
+}
+@media (max-width: 767px) {
+    #home .home-slider .item h2 {
+        font-size: 18px;
+        line-height: 22px;
+        width: 60%;
+    }
+    .section-title {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+        left: 20px;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        right: 20px;
+    }
+    #select-block .box {
+        padding: 16px 16px;
+    }
+    #select-block .search-box {
+        padding: 12px 13px;
+        margin-top: 20px;
+    }
+    .select {
+        margin-bottom: 12px;
+    }
+    #property {
+        padding: 25px 0 18px 0;
+    }
+    footer .footer-top {
+        display: none;
+    }
+    footer .footer-bottom{
+        display: flex;
+        justify-content: center;
+    }
+    footer .footer-bottom p.mobile {
+        display: block;
+    }
+
+    footer .footer-bottom p.pc {
+        display: none;
+    }
+
+    footer .footer-bottom img {
+        display: none;
+    }
+    .page-navigation {
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+    header .header-box .logo p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    header .header-box .logo span {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    header {
+        padding: 0;
+    }
+    header .header-box{
+        height: 60px;
+    }
+    .container {
+        padding: 0 16px;
+    }
+    .section-title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    #home {
+        padding-bottom: 9px;
+    }
+    #home .container {
+        padding: 0;
+    }
+    #home .home-slider .item h2 {
+        width: 71%;
+    }
+
+    #home .home-slider .item {
+        padding: 52px 0 53px 0;
+    }
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+        width: 9px;
+        height: 18px;
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+        left: 15px;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        right: 15px;
+    }
+    #new-buildings .col-12{
+        padding-bottom: 20px;
+    }
+    .building-cart {
+        padding: 18px
+    }
+    .building-cart .building-parametres li.highway p {
+        width: 85%;
+    }
+    .building-cart .building-parametres li.price p {
+        margin-left: 8px;
+    }
+    #about-buildings .subtitle {
+        font-size: 14px;
+    }
+    #property .section-title {
+        margin-bottom: 9px;
+    }
+    #property {
+        padding: 25px 0 4px 0;
+    }
+    #property .subtitle {
+        display: none;
+    }
+    #property p.first span,
+    #property p.first br {
+        display: none;
+    }
+    #property .ul-wrap {
+        margin-top: 18px;
+    }
+    #property ul li img {
+        margin-right: 15px;
+    }
+    #property p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #property ul li {
+        margin-bottom: 20px;
+    }
+    #sales-offer .section-title {
+        margin-bottom: 20px;
+    }
+    #sales-offer .offer-slider {
+        padding: 0;
+    }
+    #sales-offer .offer-slider .item {
+        padding: 10px;
+    }
+}

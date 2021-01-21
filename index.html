@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
 </head>
 <body>
@@ -23,13 +24,19 @@
                     <span>в подмосковье</span>
                 </a>
 
-                <ul class="nav_menu">
-                    <li><a href="#" class="active">Новостройки в Подмосковье</a></li>
-                    <li><a href="#">Новостройки в Новой Москве</a></li>
-                    <li><a href="#">Квартиры в Москве</a></li>
-                    <li><a href="#">Новостройки Москвы</a></li>
-                    <li><a class="special-offer" href="#">Спецпредложения от застройщиков</a></li>
-                </ul>
+                    <ul class="nav_menu">
+                        <li><a href="#" class="active">Новостройки в Подмосковье</a></li>
+                        <li><a href="#">Новостройки в Новой Москве</a></li>
+                        <li><a href="#">Квартиры в Москве</a></li>
+                        <li><a href="#">Новостройки Москвы</a></li>
+                        <li><a class="special-offer" href="#">Спецпредложения от застройщиков</a></li>
+                    </ul>
+                <div class="mobile-btn">
+                        <img src="assets/images/Menu.svg" alt="">
+                </div>
+                <a href="#" class="phone_number">
+                    <img src="assets/images/phone_24px.svg" alt="">
+                </a>
             </div>
         </div>
     </header>
@@ -68,12 +75,53 @@
                                <a href="#">Новостройки в Подмосковье</a>
                            </div>
                         </div>
+                        <section id="select-block">
+                            <div class="box">
+                                <div class="select">
+                                    <input class="select__input" id="select13" type="hidden" name="">
+                                    <div class="select__head">
+
+                                        Выберите город
+                                    </div>
+                                    <ul class="select__list" style="display: none;">
+                                        <li class="select__item city">Выберите город</li>
+                                        <li class="select__item city">Выберите город</li>
+                                    </ul>
+                                </div>
+                                <div class="select ">
+                                    <input class="select__input" id="select43" type="hidden" name="">
+                                    <div class="select__head road">
+                                        Выберите шоссе
+                                    </div>
+                                    <ul class="select__list" style="display: none;">
+                                        <li class="select__item road">Выберите шоссе</li>
+                                        <li class="select__item road">Выберите шоссе</li>
+                                    </ul>
+                                </div>
+                                <div class="select ">
+                                    <input class="select__input" id="select53" type="hidden" name="">
+                                    <div class="select__head metro">
+                                        Выберите метро
+                                    </div>
+                                    <ul class="select__list" style="display: none;">
+                                        <li class="select__item metro">Выберите метро</li>
+                                        <li class="select__item metro">Выберите метро</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="search-box">
+                                <form action="">
+                                    <input type="search">
+                                    <button type="submit" >Найти</button>
+                                </form>
+                            </div>
+                        </section>
                         <section id="new-buildings">
                             <div class="section-title">
                                 Новостройки в Москве и Подмосковье от застройщика
                             </div>
                             <div class="row">
-                                <div class="col-lg-3">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div class="building-cart">
                                         <img class="main_img" src="assets/images/DSC04286%204.png" alt="">
 
@@ -127,7 +175,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div class="building-cart">
                                         <img class="main_img" src="assets/images/DSC04286%204.png" alt="">
 
@@ -181,7 +229,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div class="building-cart">
                                         <img class="main_img" src="assets/images/DSC04286%204.png" alt="">
 
@@ -235,7 +283,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div class="building-cart">
                                         <img class="main_img" src="assets/images/DSC04286%204.png" alt="">
 
@@ -289,7 +337,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div class="building-cart">
                                         <img class="main_img" src="assets/images/DSC04286%204.png" alt="">
 
@@ -343,7 +391,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div class="building-cart">
                                         <img class="main_img" src="assets/images/DSC04286%204.png" alt="">
 
@@ -397,7 +445,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div class="building-cart">
                                         <img class="main_img" src="assets/images/DSC04286%204.png" alt="">
 
@@ -451,7 +499,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div class="building-cart">
                                         <img class="main_img" src="assets/images/DSC04286%204.png" alt="">
 
@@ -505,7 +553,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div class="building-cart">
                                         <img class="main_img" src="assets/images/DSC04286%204.png" alt="">
 
@@ -559,7 +607,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div class="building-cart">
                                         <img class="main_img" src="assets/images/DSC04286%204.png" alt="">
 
@@ -613,7 +661,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div class="building-cart">
                                         <img class="main_img" src="assets/images/DSC04286%204.png" alt="">
 
@@ -667,7 +715,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div class="building-cart">
                                         <img class="main_img" src="assets/images/DSC04286%204.png" alt="">
 
@@ -740,6 +788,49 @@
                                 застройщика в одном месте.
                             </p>
                         </section>
+                        <section id="one-room_apartments">
+                            <h2 class="section-title">
+                                Однокомнатные квартиры
+                            </h2>
+                            <table>
+                                <tbody><tr class="first">
+                                    <th class="first">
+                                        Наименование
+                                    </th>
+                                    <th class="second">Кол-во <br> комнат</th>
+                                    <th class="third">Площадь, м2</th>
+                                    <th class="four">Цена за м2</th>
+                                    <th class="five">Стоимость</th>
+                                </tr>
+                                <tr>
+                                    <td class="first ">Однокомнатная квартира Мытищи. ул.Рассветная. корп. 19</td>
+                                    <td>1</td>
+                                    <td class="square">52 000 руб.</td>
+                                    <td class="price-for">52 000 руб.</td>
+                                    <td  class="price">
+                                        5 593 000 руб.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="first ">Однокомнатная квартира Мытищи. ул.Рассветная. корп. 19</td>
+                                    <td>1</td>
+                                    <td class="square">52 000 руб.</td>
+                                    <td class="price-for">52 000 руб.</td>
+                                    <td  class="price">
+                                        5 593 000 руб.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="first ">Однокомнатная квартира Мытищи. ул.Рассветная. корп. 19</td>
+                                    <td>1</td>
+                                    <td class="square">52 000 руб.</td>
+                                    <td class="price-for">52 000 руб.</td>
+                                    <td  class="price">
+                                        5 593 000 руб.
+                                    </td>
+                                </tr>
+                                </tbody></table>
+                        </section>
                         <section id="property">
                             <h2 class="section-title">
                                 Недвижимость в новостройках Подмосковья от застройщика
@@ -755,16 +846,16 @@
                                 опережать его.
                             </p>
                             <div class="box">
-                                <p>
+                                <p class="first">
                                     Развитие сети продаж в новостройках Подмосковья «эконом» класса – стратегическая
                                     задача ресурса. На создание новых возможностей для покупателей жилья в среднем
                                     ценовом сегменте ориентированы наши услуги.
                                     <br>
                                     <br>
                                     Ресурс представляет собой каталог объектов недвижимости ближнего Подмосковья.
-                                    Простой и удобный интерфейс сайта, система интерактивных сервисов помогут
+                                    <span>Простой и удобный интерфейс сайта, система интерактивных сервисов помогут
                                     пользователю быстро и без труда найти в каталоге искомый объект. Прежде чем купить
-                                    квартиру в Подмосковье от застройщика, потенциальный новосел может:
+                                    квартиру в Подмосковье от застройщика, потенциальный новосел может:</span>
                                 </p>
                                 <div class="ul-wrap">
                                     <ul class="first">
@@ -1536,7 +1627,8 @@
                 </ul>
             </div>
             <div class="footer-bottom">
-                <p>© 2020</p>
+                <p class="pc">© 2020</p>
+                <p class="mobile">© 2020 Квартиры в Подмосковье</p>
                 <img src="assets/images/metr.jpg" alt="">
             </div>
         </div>
