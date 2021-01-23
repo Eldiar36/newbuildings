@@ -47,10 +47,14 @@ header .header-box {
     display: flex;
     align-items: center;
 }
+header .header-box .logo img {
+    width: 100%;
+    height: 56px;
+}
 header .header-box .logo p {
     font-family: "Proxima Nova Extra-Bold",sans-serif;
     font-weight: 800;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 22px;
     color: #1B4FCC;
 }
