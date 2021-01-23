@@ -843,7 +843,7 @@ footer .footer-bottom p.mobile {
     bottom: 0;
     margin: auto;
     left: 16px;
-    z-index: 99999;
+    z-index: 99999999;
     visibility: hidden;
     cursor: pointer;
 }
