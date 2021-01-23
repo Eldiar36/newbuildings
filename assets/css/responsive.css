@@ -169,6 +169,12 @@
     footer .container {
         padding: 0 30px;
     }
+    #one-room_apartments {
+        display: none;
+    }
+    #one-room_apartments_mobile {
+        display: block;
+    }
 }
 @media (max-width: 767px) {
     #home .home-slider .item h2 {
