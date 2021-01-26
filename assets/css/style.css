@@ -128,7 +128,7 @@ header .header-box .nav_menu li a.special-offer{
     z-index: 1;
     border-radius: 6px;
 }
-#home .home-slider .item h2 {
+#home .home-slider .item span {
     font-weight: 700;
     font-size: 45px;
     line-height: 55px;
@@ -144,17 +144,17 @@ header .header-box .nav_menu li a.special-offer{
     position: absolute;
 }
 .owl-carousel .owl-nav button.owl-prev {
-    background: url("../images/Chevron Right.svg")no-repeat;
+    background: url("../images/Chevron Right2.png")no-repeat;
     background-size: cover;
     left: 42px;
 }
 .owl-carousel .owl-nav button.owl-prev:hover,
 .owl-carousel .owl-nav button.owl-next:hover{
-    background: url("../images/Chevron Right.svg")no-repeat;
+    background: url("../images/Chevron Right2.png")no-repeat;
     background-size: cover;
 }
 .owl-carousel .owl-nav button.owl-next{
-    background: url("../images/Chevron Right.svg")no-repeat;
+    background: url("../images/Chevron Right2.png")no-repeat;
     transform: rotate(180deg);
     background-size: cover;
     right: 42px;
@@ -309,7 +309,7 @@ header .header-box .nav_menu li a.special-offer{
     right: 40px;
     bottom: 0;
     z-index: 0;
-    background: url("../images/Group 30.svg")no-repeat;
+    background: url("../images/Group 30.png")no-repeat;
     background-size: contain;
 }
 .select {
@@ -385,7 +385,7 @@ header .header-box .nav_menu li a.special-offer{
 }
 .select__head:after{
     content: "";
-    background: url("../images/expand_more_24px.svg")no-repeat;
+    background: url("../images/expand_more_24px.png")no-repeat;
     background-size: cover;
     width: 12px;
     height: 8px;
@@ -508,13 +508,19 @@ header .header-box .nav_menu li a.special-offer{
 .building-cart .main_img {
     margin-bottom: 13px;
 }
-.building-cart .building-parametres li.building_name {
+.building-cart .building-parametres li.building_name{
+    margin-bottom: 11px;
+}
+.building-cart .building-parametres li.building_name a  {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
     text-decoration-line: underline;
     color: #1B4FCC;
-    margin-bottom: 11px;
+    transition: .4s ease;
+}
+.building-cart .building-parametres li.building_name a:hover {
+    text-decoration: none;
 }
 .building-cart .building-parametres {
     padding: 0 0 17px 13px;
@@ -529,7 +535,7 @@ header .header-box .nav_menu li a.special-offer{
     display: flex;
     align-items: center;
 }
-.building-cart .building-parametres li p,
+.building-cart .building-parametres li div,
 .building-cart .building-parametres li a {
     font-size: 16px;
     line-height: 19px;
@@ -538,7 +544,7 @@ header .header-box .nav_menu li a.special-offer{
     color: #1B4FCC;
     text-decoration-line: underline;
 }
-.building-cart .building-parametres li.address p {
+.building-cart .building-parametres li.address .text {
     color: #736F7B;
     margin-left: 15px;
 }
@@ -548,7 +554,7 @@ header .header-box .nav_menu li a.special-offer{
 }
 .building-cart .building-parametres li.navigation p {
     color: #333333;
-    margin-left: 7px;
+    margin-left: 12px;
 }
 .building-cart .building-parametres li.highway  img,
 .building-cart .building-parametres li.developer img{
@@ -557,26 +563,26 @@ header .header-box .nav_menu li a.special-offer{
 .building-cart .building-parametres li.highway {
     align-items: flex-start;
 }
-.building-cart .building-parametres li.highway p {
+.building-cart .building-parametres li.highway .text {
     width: 80%;
     line-height: 24px;
 }
-.building-cart .building-parametres li.highway p,
-.building-cart .building-parametres li.developer p{
+.building-cart .building-parametres li.highway .text,
+.building-cart .building-parametres li.developer .text{
     color: #736F7B;
     font-weight: 700;
     margin-left: 12px;
 }
-.building-cart .building-parametres li.developer p span {
+.building-cart .building-parametres li.developer .text span {
     font-weight: 400;
 }
-.building-cart .building-parametres li.price p{
+.building-cart .building-parametres li.price .text{
     font-size: 18px;
     line-height: 22px;
     color: #333333;
     margin-left: 15px;
 }
-.building-cart .building-parametres li.price p span {
+.building-cart .building-parametres li.price .text span {
     color: #ED7E1F;
     font-weight: 700;
 }
@@ -766,17 +772,17 @@ header .header-box .nav_menu li a.special-offer{
     position: absolute;
 }
 #sales-offer .owl-carousel .owl-nav button.owl-prev {
-    background: url("../images/chevrow-blue.svg")no-repeat;
+    background: url("../images/Chevron Right.png")no-repeat;
     background-size: cover;
     left: 11px;
 }
 #sales-offer .owl-carousel .owl-nav button.owl-prev:hover,
 #sales-offer .owl-carousel .owl-nav button.owl-next:hover{
-    background: url("../images/chevrow-blue.svg")no-repeat;
+    background: url("../images/Chevron Right.png")no-repeat;
     background-size: cover;
 }
 #sales-offer .owl-carousel .owl-nav button.owl-next{
-    background: url("../images/chevrow-blue.svg")no-repeat;
+    background: url("../images/Chevron Right.png")no-repeat;
     transform: rotate(180deg);
     background-size: cover;
     right: 11px;

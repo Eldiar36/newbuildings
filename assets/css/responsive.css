@@ -177,7 +177,7 @@
     }
 }
 @media (max-width: 767px) {
-    #home .home-slider .item h2 {
+    #home .home-slider .item span {
         font-size: 18px;
         line-height: 22px;
         width: 60%;
@@ -255,7 +255,7 @@
     #home .container {
         padding: 0;
     }
-    #home .home-slider .item h2 {
+    #home .home-slider .item span {
         width: 71%;
     }
 
@@ -278,10 +278,10 @@
     .building-cart {
         padding: 18px
     }
-    .building-cart .building-parametres li.highway p {
+    .building-cart .building-parametres li.highway .text {
         width: 85%;
     }
-    .building-cart .building-parametres li.price p {
+    .building-cart .building-parametres li.price .text {
         margin-left: 8px;
     }
     #about-buildings .subtitle {
