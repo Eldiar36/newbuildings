@@ -243,7 +243,7 @@ header .header-box .nav_menu li a.special-offer{
     background: #FFFFFF;
     box-shadow: 2px 6px 20px rgba(56, 55, 121, 0.18);
     border-radius: 6px;
-    height: 100%;
+    height: auto;
 }
 .sidebar-box .sidebar-title {
     font-weight: 700;
@@ -552,7 +552,7 @@ header .header-box .nav_menu li a.special-offer{
 .building-cart .building-parametres li.location a {
     margin-left: 16px;
 }
-.building-cart .building-parametres li.navigation p {
+.building-cart .building-parametres li.navigation span {
     color: #333333;
     margin-left: 12px;
 }
