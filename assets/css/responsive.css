@@ -89,6 +89,36 @@
         font-size: 16px;
         line-height: 20px;
     }
+    /*card.html styles start*/
+    #form-comment .comment-box {
+        background: #FED700;
+        border-radius: 6px;
+        width: 100%;
+        padding: 16px 16px 30px 16px;
+        position: relative;
+    }
+    #form-comment .comment-box:after,
+    #form-comment .comment-box:before{
+        display: none;
+    }
+    #building .building-img {
+        margin-bottom: 50px;
+    }
+    #building .owl-theme .owl-dots {
+        bottom: 10px;
+    }
+    #buildings-beside .box img {
+        margin-bottom: 23px;
+        width: 100%;
+    }
+    #buildings-beside .box {
+        margin-bottom: 30px;
+    }
+    #reviews .reviews-box {
+        margin: 0;
+    }
+    /*card.html styles end*/
+
 }
 @media (max-width: 991px) {
     .container {
@@ -175,6 +205,37 @@
     #one-room_apartments_mobile {
         display: block;
     }
+    /*card.html styles start*/
+    #building .building-navigation:before {
+        display: none;
+    }
+    #building .building-navigation {
+        margin-top: 21px;
+        padding: 21px 15px 17px 15px;
+    }
+    #reviews .reviews-box .review {
+        height: auto;
+    }
+    #building .building_info {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    #form-comment .comment-box button.mobile {
+        display: block;
+    }
+    #form-comment .comment-box button.pc {
+        display: none;
+    }
+    #form-comment .comment-box input {
+        margin-bottom: 20px;
+    }
+    #form-comment .comment-box textarea {
+        width: 100%;
+        height: 153px;
+        margin-bottom: 20px;
+    }
+    /*card.html styles end*/
+
 }
 @media (max-width: 767px) {
     #home .home-slider .item span {
@@ -226,6 +287,21 @@
     .page-navigation {
         display: none;
     }
+    /*card.html styles start*/
+    #reviews .reviews-box .review {
+        padding: 20px 12px 35px 35px;
+        margin-bottom: 62px;
+    }
+    #reviews .reviews-box .review .review-body {
+        font-size: 14px;
+    }
+    #reviews .reviews-box .review .review-header {
+        align-items: baseline;
+    }
+    #form-comment {
+        padding: 0;
+    }
+    /*card.html styles end*/
 }
 @media (max-width: 480px) {
     header .header-box .logo p {
@@ -321,5 +397,61 @@
     }
     #sales-offer .offer-slider .item {
         padding: 10px;
+    }
+    /*card.html styles start*/
+    #building .owl-carousel .owl-nav {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 32%;
+    }
+    #building .building_info p {
+        font-size: 14px;
+        line-height: 25px;
+        color: #736F7B;
+    }
+    #building .section-title {
+        text-align: center;
+        margin-bottom: 17px;
+    }
+    #building {
+        padding-top: 17px;
+    }
+    #building .building-navigation .highway, #building .building-navigation .location {
+        font-size: 15px;
+    }
+    #buildings-beside {
+        padding: 30px 0 10px 0;
+    }
+    #buildings-beside .section-title {
+        text-align: center;
+        margin-bottom: 22px;
+    }
+    #buildings-beside .box {
+        padding: 14px 16px 24px 16px;
+    }
+    #buildings-beside .box img {
+        margin-bottom: 18px;
+    }
+    #buildings-beside .box .name {
+        padding-left: 0;
+    }
+    #reviews .section-title {
+        margin-bottom: 29px;
+    }
+    #address .section-title {
+        text-align: center;
+    }
+    #address .subtitle {
+        font-size: 14px;
+    }
+    /*card.html styles end*/
+}
+@media (max-width: 340px) {
+    #building .owl-carousel .owl-nav {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 25%;
     }
 }

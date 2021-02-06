@@ -41,6 +41,15 @@ $(document).ready(function(){
         }
     });
 });
+$(document).ready(function(){
+    $(".building_img-slider").owlCarousel({
+        items: 1,
+        loop:true,
+        nav:true,
+        navText:true,
+        margin:0,
+    });
+});
 $('.mobile-btn').on(  'click',function () {
     $('.mobile-btn').toggleClass('active')
     $('.nav_menu').toggleClass('active')
@@ -75,4 +84,9 @@ jQuery(($) => {
             $('.select__list').fadeOut();
         }
     });
+});
+ $("img.lazy").lazyload();
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+    // ... more custom settings?
 });

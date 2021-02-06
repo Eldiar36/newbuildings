@@ -507,7 +507,11 @@ header .header-box .nav_menu li a.special-offer{
 }
 .building-cart .main_img {
     margin-bottom: 13px;
+    width: 100%;
+    height: 216px;
+    background-image: url("data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7");
 }
+
 .building-cart .building-parametres li.building_name{
     margin-bottom: 11px;
 }
@@ -802,6 +806,9 @@ header .header-box .nav_menu li a.special-offer{
 #sales-offer .owl-theme .owl-dots .owl-dot.active span {
     background: #F50007;
 }
+#sales-offer .owl-carousel .owl-item img {
+    width: auto!important;
+}
 footer {
     background: rgba(220, 187, 7, 0.66);
     padding: 24px 0 32px 0;
@@ -841,6 +848,7 @@ footer .footer-bottom{
 footer .footer-bottom p.mobile {
     display: none;
 }
+
 .mobile-btn {
     position: absolute;
     width: 24px;
@@ -881,3 +889,352 @@ header .header-box .nav_menu.active li a {
 .phone_number {
     display: none;
 }
+
+/*card.html styles start*/
+
+#building .section-title {
+    text-align: left;
+    margin-bottom: 25px;
+}
+#building .building_info {
+    padding-right: 25px;
+    padding-left: 7px;
+}
+#building .building_info p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #736F7B;
+}
+#building .building_info p:first-child {
+    margin-bottom: 25px;
+}
+#building .building-img img {
+    width: 100%;
+    border-radius: 6px;
+}
+#building .owl-theme .owl-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -37px;
+}
+#building .owl-theme .owl-dots .owl-dot.active span {
+    background: #F50007;
+}
+#building .owl-theme .owl-dots .owl-dot span {
+    background: #E5E5E5;
+    margin: 0 7px;
+}
+#building .owl-carousel .owl-nav button.owl-prev,
+#building .owl-carousel .owl-nav button.owl-prev:hover{
+    background: url("../images/arrow-left.png")no-repeat;
+    background-size: contain;
+    z-index: 1000;
+    width: 45px;
+    height: 45px;
+    margin: 0;
+}
+#building .owl-carousel .owl-nav button.owl-next ,
+#building .owl-carousel .owl-nav button.owl-next:hover {
+    background: url("../images/arrow-right.png")no-repeat;
+    background-size: contain;
+    z-index: 1000;
+    width: 45px;
+    height: 45px;
+    margin: 0;
+    transform: rotate(0);
+}
+#building .owl-carousel .owl-nav button.owl-next{
+    right:0;
+    top: 50%;
+}
+#building .owl-carousel .owl-nav button.owl-prev{
+    left:0;
+    top: 50%;
+}
+#building .building-navigation {
+    margin-top: 46px;
+    background: #FFF9D7;
+    border-radius: 10px;
+    width: 100%;
+    padding: 21px 0 17px 157px;
+    position: relative;
+}
+#building .building-navigation:before{
+    content: "";
+    position: absolute;
+    left: 45px;
+    bottom: 0;
+    background: url("../images/Group 30.png")no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 93px;
+}
+#building .building-navigation .title{
+    font-family:"Proxima Nova",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+}
+#building .building-navigation .highway,
+#building .building-navigation .location {
+    font-family:"Proxima Nova",sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333
+}
+#building .building-navigation .highway {
+    margin: 9px 0 15px 0;
+}
+#building .building-navigation .highway a {
+    text-decoration-line: underline;
+    color: #1B4FCC;
+}
+#building .building-navigation .highway a:first-child{
+    margin-left: 9px;
+}
+#address {
+    padding-top: 37px;
+}
+#address .section-title {
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    margin-bottom: 27px;
+}
+#address .map iframe {
+    height: 475px;
+}
+#address .subtitle {
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #736F7B;
+}
+#address .subtitle a {
+    text-decoration: underline;
+    color: #1B4FCC;
+}
+#buildings-beside {
+    padding: 30px 0 76px 0;
+}
+#buildings-beside .section-title {
+    text-align: left;
+    margin-bottom: 20px;
+}
+#buildings-beside .box {
+    background: #FFFFFF;
+    box-shadow: 2px 6px 10px rgba(56, 55, 121, 0.12);
+    border-radius: 6px;
+    padding: 17px 17px 32px 17px;
+    cursor: pointer;
+    transition: .4s ease-in;
+}
+#buildings-beside .box:hover {
+    box-shadow: 4px 4px 30px 20px rgba(41, 57, 116, 0.18);
+}
+#buildings-beside .box .wrapper {
+
+}
+#buildings-beside .box img {
+    margin-bottom: 23px;
+}
+#buildings-beside .box .name {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #1B4FCC;
+    padding-left: 13px;
+}
+#reviews .section-title {
+    margin-bottom: 42px;
+}
+#reviews .reviews-box {
+    margin:0 109px 0 106px;
+}
+#reviews .reviews-box .review {
+    padding: 20px 73px 35px 35px;
+    background: #EAF2F9;
+    margin-bottom: 40px;
+    position: relative;
+    transition: .3s ease-in-out;
+    height: 167px;
+}
+#reviews .reviews-box .review:hover{
+    background: #FFF9D7;
+}
+#reviews .reviews-box .review:hover:after{
+    border-color: #FFF9D7 transparent transparent transparent;
+}
+#reviews .reviews-box .review:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 22px 22px 0 0;
+    border-color: #eaf2f9 transparent transparent transparent;
+    position: absolute;
+    left: 0;
+    bottom: -22px;
+    transition: .3s ease-in-out;
+}
+#reviews .reviews-box .review .review-header {
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+}
+#reviews .reviews-box .review .review-header .name {
+    font-family:"Proxima Nova",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B53759;
+}
+#reviews .reviews-box .review .review-header .time {
+    font-size: 18px;
+    line-height: 21px;
+    color: #9299A2;
+    margin-left: 16px;
+}
+#reviews .reviews-box .review .review-body {
+    font-size: 16px;
+    line-height: 25px;
+    color: #555A66;
+}
+#form-comment {
+    padding: 63px 0 188px 0;
+}
+#form-comment .section-title {
+    margin-bottom: 15px;
+}
+#form-comment .comment-box {
+    background: #FED700;
+    border-radius: 6px;
+    width: 100%;
+    padding: 48px 176px;
+    position: relative;
+}
+#form-comment .comment-box:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url("../images/paper-plane 1.png")no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#form-comment .comment-box:after {
+    content: "";
+    width: 132px;
+    height: 154px;
+    background: url("../images/Group 65.png")no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 14px;
+    top: 95px;
+}
+#form-comment .comment-box input {
+    width: 100%;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 18px 20px;
+    border: none;
+    margin-bottom: 22px;
+     position: relative;
+    z-index: 100;
+}
+#form-comment .comment-box button {
+    cursor: pointer;
+    background: #21A038;
+    border-radius: 4px;
+    width: 100%;
+    height: 75px;
+    border: none;
+    font-family: 'Proxima Nova',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+     position: relative;
+    z-index: 100;
+}
+#form-comment .comment-box button.mobile {
+    display: none;
+}
+#form-comment .comment-box textarea {
+    width: 100%;
+    height: 100%;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    z-index: 100;
+}
+#form-comment .comment-box input::placeholder,
+#form-comment .comment-box textarea::placeholder{
+    font-family: 'Proxima Nova',sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #736F7B;
+}
+#card-page #one-room_apartments {
+    padding: 24px 0 0 0;
+}
+#card-page #one-room_apartments .section-title {
+    text-align: left;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 9px;
+}
+#card-page #one-room_apartments .section-subtitle {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    color: #736F7B;
+    font-family: "Gotham Pro",sans-serif;
+}
+
+#card-page #one-room_apartments table tr td {
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+}
+#card-page #one-room_apartments_mobile table tr td {
+    background: #FCF6EB;
+}
+#card-page #one-room_apartments_mobile table tr td.name {
+    color: #333333;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: none;
+    margin-bottom: 0;
+}
+#card-page #one-room_apartments_mobile table tr.second.two {
+    margin-bottom: 3px;
+}
+#card-page #one-room_apartments_mobile table tr.second th,
+#card-page #one-room_apartments_mobile table tr.third th{
+    color: rgba(27, 79, 204, 0.51);
+    font-family: 'Proxima Nova',sans-serif;
+}
+#card-page #one-room_apartments_mobile table tr.second {
+    height: 33px;
+    justify-content: flex-start;
+}
+#card-page #one-room_apartments_mobile table tr.second th:first-child,
+#card-page #one-room_apartments_mobile table tr.second td:first-child{
+    width: 40%;
+}
+#card-page #one-room_apartments_mobile table tr.second th:last-child,
+#card-page #one-room_apartments_mobile table tr.second td:last-child{
+    width: 60%;
+}
+#card-page #one-room_apartments_mobile table tr.second td {
+    background: #FFFFFF;
+}
+/*card.html styles end*/
